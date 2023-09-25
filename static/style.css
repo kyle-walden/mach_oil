@@ -3,19 +3,9 @@ body {
 }
 
 p {
-  font-size: 1rem;
 font-family: 'PT Sans', sans-serif;
 }
 
 .code-font {
 	font-family: 'Inconsolata', monospace;
-}
-	
-
-.small {
-  font-size: 0.9rem;
-}
-
-.xsmall {
-	font-size: 0.7rem;
 }
