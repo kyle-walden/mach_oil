@@ -13,16 +13,6 @@ body {
   position: relative;
 }
 
-.header::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 0;
-    bottom: 0;
-    width: 1px;
-	background-color: black; /* Change this to the color you want */
-}
-
 .logo {
     /* Add your logo styles here */
 }
