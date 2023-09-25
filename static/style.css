@@ -4,11 +4,33 @@ body {
   font-size: 16px;
 }
 
-header {
-  color: #ffffff;
-  background-color: #333133;
+.header {
   margin: -1rem;
   padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+	background-color: black; /* Change this to the color you want */
+}
+
+.logo {
+    /* Add your logo styles here */
+}
+
+.menu {
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  text-align: center;
 }
 
 section {
@@ -18,6 +40,7 @@ margin-top: 3rem;
 
 .code-font {
 	font-family: "Space Mono", monospace;
+  font-size: 14px;
 }
 
 .heading {
@@ -34,13 +57,22 @@ margin-top: 3rem;
 .row {
     display: flex;
     justify-content: space-around;
+  gap: 1rem;
 }
 
 .row-item {
     flex: 1 1 auto;
 }
 
-
+button {
+	padding: 0.5rem;
+	font-family: "Space Mono", monospace;
+	font-size: auto;
+	border-radius: 0rem;
+	background-color: #4E2677;
+	color: #B886FC;
+	border: none;
+}
 
 
 
